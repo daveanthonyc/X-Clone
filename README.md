@@ -1,30 +1,43 @@
-# React + TypeScript + Vite
+<br /><br />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+    <img src="" alt="Xhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdB-EbJVMxRYtNz1i4dn7jOVSfHq-002oe4w&s Logo" width="70">
+</p>
 
-Currently, two official plugins are available:
+<h3 align="center"><b>X Clone</b></h3>
+<p align="center"><b>Rich feature React TypeScript clone of X</b></p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- This is a clone of X/Twitter's main application in React/TypeScript. It is just the front end client code and makes use of the database/authentication toolset from Firebase for simplicity of development.
+- My focus with this project is to learn a myriad of practical app development, React and testing skills and I will attempt to build it without a tutorial and just seek out documentation for tools being used and also web dev concepts. Any useful findings will be added to this readme document. I can potentially post about my learnings in my blog as well.
 
-## Expanding the ESLint configuration
+# Feature Goals
+- Posting
+- User interaction (likes, replies, DMs, reposts, views, share) 
+- User Authentication / (maybe use O Auth?)
+- File uploading / Video sharing
+- Paid Premium Subscription (Stripe Integration)
+- Account Search
+- Infinite Scroll
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+# Key Learning Goals
+- Global State Management and flow when involving async fetch requests (e.g Auth)
+- Patterns to integrate payment integrations
+- Vitest component testing (experiment with TDD) and mocking
+- Implementation of MVP architecture. (explore use of Custom Hooks/Context Providers for encapsulation of presenter logic?)
+- Attempt to create testable modules with dependency injection
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+# Installation
+*Clone the Repository*
+```bash
+git clone git@github.com:daveanthonyc/X-Clone.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+*Install dependencies*
+```bash
+npm install
+```
+
+*Run development server*
+```bash
+npm run dev
+```
