@@ -3,11 +3,6 @@
     height: 100%;
 }
 
-.login__logo > svg {
-    filter: invert(1) sepia(1) saturate(5) hue-rotate(180deg);
-    height: 23rem;
-}
-
 .login__logo {
     flex: 1;
     display: flex;
@@ -16,10 +11,16 @@
     align-items: center;
 }
 
+.login__logo > svg {
+    filter: invert(1) sepia(1) saturate(5) hue-rotate(180deg);
+    height: 23rem;
+    margin-left: 20%;
+}
+
 .login__right {
     flex: 1;
     display: flex;
-    justify-content: center;
+    margin-left: 10%;
     align-items: center;
     height: 100vh;
 }
@@ -34,13 +35,17 @@
 }
 
 .login__signin h1 {
-    font-size: 3.7rem;
+    font-size: 4rem;
     margin-bottom: 50px;
 }
 
 .login__signin h2 {
     font-size: 2rem;
     margin-bottom: 30px;
+}
+
+.login__signin h3 {
+    margin-bottom: 10px;
 }
 
 .login__signin a {

@@ -3,7 +3,7 @@ export function buttonStyles(type?: string) {
         case 'outlined':
             return ({
                 backgroundColor: 'none',
-                border: '1px solid white',
+                border: '1px solid rgba(255,255,255,0.5)',
                 color: '#1DA1F2'
             })
         case 'regular':
