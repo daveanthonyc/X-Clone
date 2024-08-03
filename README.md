@@ -12,8 +12,8 @@
 
 # Feature Goals
 - Posting
-- User interaction () 
-- User Authentication / (maybe use O Auth?)
+- User interaction (likes, replies, shares, views) 
+- User Authentication / (maybe use O Auth as well?)
 - File uploading / Video sharing
 - Paid Premium Subscription (Stripe Integration)
 - Account Search
