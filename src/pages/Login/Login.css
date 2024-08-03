@@ -1,0 +1,62 @@
+.login {
+    display: flex;
+    height: 100%;
+}
+
+.login__logo > svg {
+    filter: invert(1) sepia(1) saturate(5) hue-rotate(180deg);
+    height: 23rem;
+}
+
+.login__logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.login__right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login__signin {
+}
+
+.login__signin p {
+    font-size: 10px;
+    color: grey;
+    margin-bottom: 50px;
+}
+
+.login__signin h1 {
+    font-size: 3.7rem;
+    margin-bottom: 50px;
+}
+
+.login__signin h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.login__signin a {
+    text-decoration: none;
+    color: #1DA1F2;
+    font-weight: 500;
+}
+
+.login__signin a:hover {
+    text-decoration: underline;
+}
+
+.login__signin__cluster {
+    display: grid;
+    width: 300px;
+    gap: 10px;
+}
+
+
