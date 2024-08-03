@@ -1,7 +1,7 @@
 <br /><br />
 
 <p align="center">
-    <img src="" alt="Xhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdB-EbJVMxRYtNz1i4dn7jOVSfHq-002oe4w&s Logo" width="70">
+    <img src="" alt="Xhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdB-EbJVMxRYtNz1i4dn7jOVSfHq-002oe4w&s Logo" width="70" />
 </p>
 
 <h3 align="center"><b>X Clone</b></h3>
