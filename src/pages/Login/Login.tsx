@@ -12,10 +12,10 @@ const Login: React.FC = () => {
                     <h1>Happening now</h1>
                     <h2>Join today.</h2>
                     <div className="login__signin__cluster">
-                        <Button>Create account</Button>
+                        <Button variant='accent'>Create account</Button>
                         <p>By signing up, you agree to the <a href='https://x.com/en/tos'>Terms of Service</a> and <a href='https://x.com/en/privacy'>Privacy Policy</a>, including <a href='https://help.x.com/en/rules-and-policies/x-cookies'>Cookie Use</a>.</p>
                         <h3>Already have an account?</h3>
-                        <Button type='outlined'>Sign in</Button>
+                        <Button variant='outlined'>Sign in</Button>
                     </div>
                 </div>
             </div>
