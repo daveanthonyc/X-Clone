@@ -15,11 +15,11 @@ function buttonTypeStyles(type: string) {
             })
         case 'regular':
             return ({
-                backgroundColor: '#1DA1F2'
+                backgroundColor: 'none'
             })
         case 'accent':
             return ({
-                backgroundColor: 'none',
+                backgroundColor: '#1DA1F2',
             })
         default:
             return (

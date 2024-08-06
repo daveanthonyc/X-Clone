@@ -20,11 +20,13 @@
 - Infinite Scroll
 
 # Key Learning Goals
-- Global State Management and flow when involving async fetch requests (e.g Auth)
-- Patterns to integrate payment integrations
-- Vitest component testing (experiment with TDD) and mocking
+- Create reusable components with different variants like in a design system
+- Test by conveniently viewing all states of components (Storybook)
+- How to handle Global State Management and flow when involving async fetch requests (e.g Auth using Redux/Context)
+- Understand Patterns to integrate payment services (Stripe)
+- Vitest component testing (experiment with TDD) and mocking services
 - Implementation of MVP architecture. (explore use of Custom Hooks/Context Providers for encapsulation of presenter logic?)
-- Attempt to create testable modules with dependency injection
+- Create testable modules with dependency injection
 
 # Installation
 *Clone the Repository*
