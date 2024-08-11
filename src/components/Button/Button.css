@@ -8,6 +8,17 @@
     transition: all 100ms ease-in-out;
 }
 
+.button:disabled {
+    filter: brightness(0.8);
+    cursor: none;
+}
+
+.button:disabled:hover {
+    filter: brightness(0.8);
+    cursor: auto;
+}
+
+
 .button:hover {
-    filter: brightness(0.9);
+     filter: brightness(0.9);
 }
